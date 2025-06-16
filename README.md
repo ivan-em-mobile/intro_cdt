@@ -4,8 +4,9 @@ Nosso primeiro repositorio do Código da Transfomação, onde iremos criar nosso
 
 ##Tema do Site
 
-
-
+(Nome, Do Nome, Pro Nome)
+Renan Gomes Coelho
+Tarcísio 
 
 ##HTML
 
