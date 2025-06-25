@@ -20,8 +20,7 @@ Nosso primeiro repositorio do Código da Transfomação, onde iremos criar nosso
 ##CSS
 
 (GUSTAVO - NATHALIA - MATHEUS)
-Definir prioridades
-
+layout básico, organização do código, responsividade (mobile-first), estilização de botões, formulários e menus, testes e ajustes finais
 
 
 ##UX/UI
