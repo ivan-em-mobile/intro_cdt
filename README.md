@@ -40,7 +40,7 @@ Mobile First é uma abordagem de design e desenvolvimento web em que o projeto c
 ##CSS
 
 (GUSTAVO, NATHALIA, MATHEUS)
-Definir prioridades
+layout básico, organização do código, responsividade (mobile-first), estilização de botões, formulários e menus, testes e ajustes finais
 
 
 
