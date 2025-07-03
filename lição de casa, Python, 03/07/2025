@@ -1,0 +1,18 @@
+print("Oii, tudo bem este é o meu sistema de coleta de dados!")
+input("Vamos começar qual é o seu nome? ")
+
+username = input("Legal mas qual é o seu @username? ")  
+
+nome_pessoal = input("Como devo te chamar? ")
+
+idade = input(f"Legal {username}, mas quantos anos você tem")
+
+altura_da_pessoa = input("Ta mas qual que é sua Altura? ")
+
+gosto_de = input("O que gosta de Fazer? ")
+
+animal = input("Se você fosse um animal, qual você seria? ")
+
+print("\nParabéns, O seu resultado foi salvo com sucesso!\n")
+print(f"Olá {nome_pessoal}, seu @username é {username} você tem {idade} anos e sua altura é {altura_da_pessoa}m vccê gosta de {gosto_de} e o animal que você escolher ser foi {animal}")
+print("\nFim do sistema com sucesso!\n")
