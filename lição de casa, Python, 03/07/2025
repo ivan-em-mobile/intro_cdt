@@ -1,11 +1,11 @@
-print("Oii, tudo bem este é o meu sistema de coleta de dados!")
+print("Oii, tudo bem este é o sistema de Capsula de tempo YAIIIIII")
 input("Vamos começar qual é o seu nome? ")
 
 username = input("Legal mas qual é o seu @username? ")  
 
 nome_pessoal = input("Como devo te chamar? ")
 
-idade = input(f"Legal {username}, mas quantos anos você tem")
+idade = input(f"Legal {username}, mas quantos anos você tem? ")
 
 altura_da_pessoa = input("Ta mas qual que é sua Altura? ")
 
@@ -13,6 +13,30 @@ gosto_de = input("O que gosta de Fazer? ")
 
 animal = input("Se você fosse um animal, qual você seria? ")
 
-print("\nParabéns, O seu resultado foi salvo com sucesso!\n")
-print(f"Olá {nome_pessoal}, seu @username é {username} você tem {idade} anos e sua altura é {altura_da_pessoa}m vccê gosta de {gosto_de} e o animal que você escolher ser foi {animal}")
-print("\nFim do sistema com sucesso!\n")
+sonho = input("Qual é um grande sonho seu para o futuro? ") # Variável para guardar o sonho
+print("\nParabéns, O seu resultado foi salvo com sucesso! \n")
+print(f"Olá {nome_pessoal}, seu @username é {username} você tem {idade} anos e sua altura é {altura_da_pessoa}m vccê gosta de {gosto_de} e o animal que você escolheu ser foi o {animal}")
+
+# Coletando informações numéricas e convertendo para inteiro com int()
+# Isso é importante para podermos fazer cálculos com a idade 
+ano_atual_str = input("Em que ano estamos? (Ex: 2025) ")
+
+ano_atual = int(ano_atual_str) # Converte o texto (string) para número inteiro (int) 
+
+anos_no_futuro_str = input("Daqui a quantos anos você quer 'abrir' sua cápsula? (Ex: 10)")
+anos_no_futuro = int(anos_no_futuro_str) # Converte para número inteiro
+ano_da_abertura = ano_atual + anos_no_futuro
+
+print("\nParabéns, O seu resultado foi salvo com sucesso! \n")
+print(f"Olá {nome_pessoal}, seu @username é {username} você tem {idade} anos e sua altura é {altura_da_pessoa}m vccê gosta de {gosto_de} o animal que você escolheu ser foi o {animal}, e o ano que voc~e vai abrir a capusula vai ser daqui a {anos_no_futuro_str} ou seja daqui a {ano_da_abertura}")
+# 2. Processando as informações
+# Calculando o ano em que a cápsula será "aberta" 
+
+# 3. Exibindo a mensagem da cápsula do tempo
+# Usamos f-strings para formatar a saída de forma clara e personalizada 
+print("\n--- ABRINDO SUA CÁPSULA DO TEMPO DIGITAL ---")
+print(f"Olá do passado! Esta mensagem foi criada por {username} no ano de {ano_atual}.")
+print(f"Naquela época, o que voce gosta de fazer ou gostava era de {gosto_de}. ")
+print(f"O animal que voce queria ser era {animal}. ")
+print(f"\nEspero que você, em {ano_da_abertura}, esteja realizando seus sonhos!")
+print("--- FIM DA CÁPSULA ---")
