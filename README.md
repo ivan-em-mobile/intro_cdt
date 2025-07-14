@@ -16,8 +16,9 @@ Debora, Alessandra, Myriam, Yasmin, Kemilly (Exemplo de Nomes)
 ##Tema do Site
 (Renan e Tarso)
 
-
-
+(Nome, Do Nome, Pro Nome)
+Renan Gomes Coelho
+Tarcísio 
 
 ##HTML
 (Gabriel, Rafael, Mi) 
