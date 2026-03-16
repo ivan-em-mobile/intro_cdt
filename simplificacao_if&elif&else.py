@@ -47,10 +47,14 @@ preco_frutas = {
 }
 
 # Definimos qual fruta queremos procurar
-fruta_desejada = 'maçã'
+
+# fruta_desejada = 'maçã' # Podemos pedir para o usuário digitar a fruta desejada
+
+fruta_desejada = input("Digite o nome da fruta (maçã, banana, laranja): ").lower()
 
 # Fazemos a busca direta usando o método .get()
 # O .get() tenta encontrar a fruta; se não achar, mostra 'Fruta não encontrada'
+
 resultado = preco_frutas.get(fruta_desejada, 'Fruta não encontrada')
 
 # Exibimos o resultado

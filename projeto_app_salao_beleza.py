@@ -16,7 +16,7 @@ alterar serviços, cancelar registros e gerar relatórios financeiros simples.
 # 1. Configuração Inicial (Tabela de Preços e Variáveis de Armazenamento)
 tabela_precos = {
     'corte': 30.0,
-    'barba': 20.0,
+    'tintura': 20.0,
     'completo': 45.0
 }
 
